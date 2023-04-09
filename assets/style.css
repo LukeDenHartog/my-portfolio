@@ -1,23 +1,33 @@
-
+.body-padding {
+    padding-left: 30%;
+    padding-right: 10%;
+}
 .first-project-outerbox {
+    display: block;
     border: 4px solid rgb(85, 226, 236);
-    padding 20px;
+    
 }
 .first-project-innerbox {
+    display: inline-block;
+    background-color: rgb(85, 226, 236);
     border: 4px solid rgb(85, 226, 236);
-    padding 20px;
-    margin: 10px;
+   
+     margin: 10px 10px 10px 0px;
 }
 
-.outer-box {
+.outer-box { 
+ 
     border: 4px solid rgb(85, 226, 236);
     padding 20px;
 }
 
 .inner-box {
+    display: inline-block;
+    background-color: rgb(85, 226, 236);
     border: 4px solid rgb(85, 226, 236);
-    padding 20px;
-    margin: 10px;
+    padding px;
+    margin: 10px 10px 10px 0px;
+
 }
 
 .flex-container {
@@ -31,19 +41,19 @@
     width: 400px;
   }
 #led-wall-img {
-    background-image: url('02-portfolio-1.jpg');
+    background-image: url('02-portfolio-1.jp');
     background-size: cover;
     background-position: center;
     height: 150px;
-    width: 150px;
+    width: 250px;
 }
 
 #calculator-rjc-img {
-    background-image: url('02-portfolio-2.jpg');
+    background-image: url('02-portfolio-2.jp');
     background-size: cover;
     background-position: center;
     height: 150px;
-    width: 150px;
+    width: 250px;
 }
 
 #pretzel-puzzels-img {
@@ -51,13 +61,26 @@
     background-size: cover;
     background-position: center;
     height: 150px;
-    width: 150px;
+    width: 250px;
 }
 
 #run-buddy-img {
-    background-image: url('02-run-buddy.jpg');
+    background-image: url('02-run-buddy.jp');
     background-size: cover;
     background-position: center;
     height: 150px;
-    width: 150px;
+    width: 250px;
 }
+
+
+
+
+/*     In the example above, the display: inline-block; property
+ makes the container behave like an inline element, but with the ability 
+ to set a width and height. This causes the border to wrap only around the 
+ content within the container, rather than stretching to the full width of
+ its parent element.    */
+.inline-flex{
+display: inline-flex;}
+
+  
