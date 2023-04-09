@@ -1,3 +1,37 @@
+.navbar {
+    border: 4px ;
+    background-color: rgb(68, 76, 102)grey;
+    padding-right: 75px;
+}
+li {
+    color: teal;
+    text-decoration: underline;
+    display: inline-flex;
+    
+
+}
+.small-teal-box {
+    display: inline-block;
+    
+    background-color:rgb(85, 226, 236);
+    padding-left: 75px;
+}
+.h1-box {
+    border: 4px;
+    background-color: rgb(49, 55, 71);
+    width: 100%;
+       
+}
+
+h1 {
+  color: rgb(49, 55, 71);
+  
+}
+h3 {
+    padding: 0px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .body-padding {
     padding-left: 30%;
     padding-right: 10%;
@@ -29,7 +63,10 @@
     margin: 10px 10px 10px 0px;
 
 }
-
+.header-flex-container {
+    display: inline-flex;
+    justify-content: space-between;
+}
 .flex-container {
     display: inline-flex;
 }
