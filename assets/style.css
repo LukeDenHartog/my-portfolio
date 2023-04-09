@@ -1,0 +1,11 @@
+
+.outer-box {
+    border: 2px solid black; /* border around the outer box */
+    padding: 20px; /* padding inside the outer box */
+  }
+  
+  .inner-box {
+    border: 1px solid red; /* border around the inner box */
+    padding: 10px; /* padding inside the inner box */
+    margin: 10px; /* margin around the inner box */
+  }
