@@ -11,7 +11,7 @@ li {
 
 }
 .small-teal-box {
-    display: inline-block;
+    display: inline;
     
     background-color:rgb(85, 226, 236);
     padding-left: 75px;
@@ -22,10 +22,11 @@ li {
     width: 100%;
        
 }
-
-h1 {
+.large-heading-txt {
+    display: inline-block;
+}
+#headerh1 {
   color: rgb(49, 55, 71);
-  
 }
 h3 {
     padding: 0px 5px;
@@ -33,6 +34,7 @@ h3 {
 }
 
 .body-padding {
+    margin-top: 50px;
     padding-left: 30%;
     padding-right: 10%;
 }
@@ -52,20 +54,37 @@ h3 {
 .outer-box { 
  
     border: 4px solid rgb(85, 226, 236);
-    padding 20px;
+    padding: 20px;
 }
 
 .inner-box {
     display: inline-block;
     background-color: rgb(85, 226, 236);
     border: 4px solid rgb(85, 226, 236);
-    padding px;
+    padding: px;
     margin: 10px 10px 10px 0px;
 
 }
+.straight-line-divider {
+        height: 200px; /* Set the height of the div to 40 pixels */
+        border-right: 5px solid rgb(49, 55, 71);; /* Add a solid black border to the top of the div */
+      }
+
 .header-flex-container {
     display: inline-flex;
     justify-content: space-between;
+}
+.flex-container-02 {
+    display: inline-flex;
+    justify-content: flex-start;
+    
+}
+.flex-wrapping {
+    display: flex;
+    flex-wrap: wrap;
+}
+.paragraph-margin {
+    margin-left: 50px;
 }
 .flex-container {
     display: inline-flex;
