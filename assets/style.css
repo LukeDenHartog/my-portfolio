@@ -150,9 +150,23 @@ display: inline-flex;
 
 
 /*  Footer CSS */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
 
+
+}
+.straight-line-divider-02 {
+    height: 200px; /* Set the height of the div to 200 pixels */
+    border-right: 5px solid rgb(49, 55, 71);; /* Add a solid black border to the top of the div */
+    display: flex;
+}
 .footer-list-attributes {
     color: rgb(49, 55, 71);
     text-decoration: underline;
     
+}
+.footer-wrapper-02 {
+    display: inline-block;
 }
