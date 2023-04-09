@@ -3,7 +3,7 @@
     background-color: rgb(68, 76, 102)grey;
     padding-right: 75px;
 }
-li {
+.nav-li {
     color: teal;
     text-decoration: underline;
     display: inline-flex;
@@ -23,7 +23,9 @@ li {
        
 }
 .large-heading-txt {
-    display: inline-block;
+   
+    margin-right: 10px;
+    font-size: 300%;
 }
 #headerh1 {
   color: rgb(49, 55, 71);
@@ -76,9 +78,15 @@ h3 {
 }
 .flex-container-02 {
     display: inline-flex;
-    justify-content: flex-start;
-    
+    justify-content: flex-end;    
 }
+.flex-container-03 {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
 .flex-wrapping {
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +105,7 @@ h3 {
     width: 400px;
   }
 #led-wall-img {
-    background-image: url('02-portfolio-1.jp');
+    background-image: url('02-portfolio-1.jpg');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -105,7 +113,7 @@ h3 {
 }
 
 #calculator-rjc-img {
-    background-image: url('02-portfolio-2.jp');
+    background-image: url('02-portfolio-2.jpg');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -121,7 +129,7 @@ h3 {
 }
 
 #run-buddy-img {
-    background-image: url('02-run-buddy.jp');
+    background-image: url('02-run-buddy.jpg');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -136,7 +144,19 @@ h3 {
  to set a width and height. This causes the border to wrap only around the 
  content within the container, rather than stretching to the full width of
  its parent element.    */
-.inline-flex{
-display: inline-flex;}
+.inline-flex {
+display: inline-flex;
+}
 
+.inline-flex-02 {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+
+/*    Below I will be putting most of the footers CSS    */
+
+.footer-list-attributes {
+    text-decoration: underline rgb(49, 55, 71);   
+}
   
