@@ -1,11 +1,63 @@
 
+.first-project-outerbox {
+    border: 4px solid rgb(85, 226, 236);
+    padding 20px;
+}
+.first-project-innerbox {
+    border: 4px solid rgb(85, 226, 236);
+    padding 20px;
+    margin: 10px;
+}
+
 .outer-box {
-    border: 2px solid black; /* border around the outer box */
-    padding: 20px; /* padding inside the outer box */
+    border: 4px solid rgb(85, 226, 236);
+    padding 20px;
+}
+
+.inner-box {
+    border: 4px solid rgb(85, 226, 236);
+    padding 20px;
+    margin: 10px;
+}
+
+.flex-container {
+    display: inline-flex;
+}
+.box-img-first-project {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px;
   }
-  
-  .inner-box {
-    border: 1px solid red; /* border around the inner box */
-    padding: 10px; /* padding inside the inner box */
-    margin: 10px; /* margin around the inner box */
-  }
+#led-wall-img {
+    background-image: url('02-portfolio-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+
+#calculator-rjc-img {
+    background-image: url('02-portfolio-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+
+#pretzel-puzzels-img {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+
+#run-buddy-img {
+    background-image: url('02-run-buddy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
