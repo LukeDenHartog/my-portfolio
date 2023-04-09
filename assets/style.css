@@ -3,7 +3,7 @@
     background-color: rgb(68, 76, 102)grey;
     padding-right: 75px;
 }
-.nav-li {
+.header-list-items {
     color: teal;
     text-decoration: underline;
     display: inline-flex;
@@ -68,7 +68,7 @@ h3 {
 
 }
 .straight-line-divider {
-        height: 200px; /* Set the height of the div to 40 pixels */
+        height: 200px; /* Set the height of the div to 200 pixels */
         border-right: 5px solid rgb(49, 55, 71);; /* Add a solid black border to the top of the div */
       }
 
@@ -78,15 +78,9 @@ h3 {
 }
 .flex-container-02 {
     display: inline-flex;
-    justify-content: flex-end;    
-}
-.flex-container-03 {
-    display:flex;
     justify-content: flex-end;
-    align-items: flex-end;
-
+    
 }
-
 .flex-wrapping {
     display: flex;
     flex-wrap: wrap;
@@ -152,11 +146,13 @@ display: inline-flex;
     display: inline-flex;
     justify-content: flex-end;
 }
+  
 
 
-/*    Below I will be putting most of the footers CSS    */
+/*  Footer CSS */
 
 .footer-list-attributes {
-    text-decoration: underline rgb(49, 55, 71);   
+    color: rgb(49, 55, 71);
+    text-decoration: underline;
+    
 }
-  
