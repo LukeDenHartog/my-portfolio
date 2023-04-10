@@ -9,9 +9,6 @@
     text-decoration: underline;
     display: inline-flex;
 }
-.yellow {
-    align-self: center;
-}
 .small-teal-box {
     display: inline;
     margin: 20px 0px 20px 0px;
@@ -79,8 +76,8 @@ h3 {
 }
 
 .body-padding {
-    padding-left: 60px;
-    padding-right: 100px;
+    padding-left: 100px;
+    padding-right: 125px;
 }
 .first-project-outerbox {
     display: block;
@@ -113,16 +110,16 @@ h3 {
         height: 200px; /* Set the height of the div to 200 pixels */
         border-right: 5px solid rgb(49, 55, 71);; /* Add a solid black border to the top of the div */
       }
+.straight-line-divider02 {
+    height: 1000px;
+    border-right: 5px solid rgb(49, 55, 71); 
+}
 
 .header-flex-container {
     display: inline-flex;
     justify-content: space-between;
 }
-.flex-container-02 {
-    display: inline-flex;
-    justify-content: flex-end;
-    
-}
+
 .flex-wrapping {
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +129,17 @@ h3 {
 }
 .flex-container {
     display: inline-flex;
+}
+.flex-container-02 {
+    display: inline-flex;
+    justify-content: flex-end;  
+}
+.flex-container-03 {
+    display: inline-flex;
+    justify-content: center;  
+}
+.flex-container-04 {
+    
 }
 .box-img-first-project {
     background-image: url('');
