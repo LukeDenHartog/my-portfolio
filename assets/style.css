@@ -38,6 +38,21 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.banner-background {
+    background-image: url('02-hero-bg.jpg');
+    filter: opacity(1);
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(1 58 137);
+    background-blend-mode: screen;
+}
+#banner-picture-subtitle {
+    border: 10px;
+    background-color:rgb(85, 226, 236);
+    margin: 40px 75px;
+}
+
 .body-padding {
     margin-top: 50px;
     padding-left: 7.5%;
