@@ -130,7 +130,7 @@ h3 {
 }
 
 .body-padding {
-    padding-left: 300px;
+    padding-left: 175px;
     padding-right: 125px;
 }
 .first-project-outerbox {
@@ -178,6 +178,10 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
+.flex-wrapping02 {
+    display: flex;
+    margin-top: 75px;
+}
 .paragraph-margin {
     margin-left: 50px;
 }
@@ -190,7 +194,8 @@ h3 {
 }
 .flex-container-03 {
     display: inline-flex;
-    justify-content: center;  
+    justify-content: center;
+    padding-left: 46px;  
 }
 .flex-container-04 {
     display: flex;
@@ -282,4 +287,8 @@ display: inline-flex;
 
 .footer-flex {
  display: fl;
+}
+
+.paragraph-text-size {
+    font-size: 20px;
 }
