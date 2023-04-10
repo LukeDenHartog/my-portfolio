@@ -107,6 +107,9 @@ h3 {
 .small-projects-flex {
     display: flex;
     flex-wrap: wrap;
+    flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    margin-bottom: 10px;
 }
 .small-projects-flex02 {
     display: flex;
@@ -127,7 +130,7 @@ h3 {
 }
 
 .body-padding {
-    padding-left: 175px;
+    padding-left: 300px;
     padding-right: 125px;
 }
 .first-project-outerbox {
@@ -190,6 +193,8 @@ h3 {
     justify-content: center;  
 }
 .flex-container-04 {
+    display: flex;
+    flex-flow: column;
     margin-left: 30px;
 }
 .box-img-first-project {
