@@ -76,7 +76,7 @@ h3 {
 }
 
 .body-padding {
-    padding-left: 100px;
+    padding-left: 175px;
     padding-right: 125px;
 }
 .first-project-outerbox {
@@ -139,7 +139,7 @@ h3 {
     justify-content: center;  
 }
 .flex-container-04 {
-    
+    margin-left: 30px;
 }
 .box-img-first-project {
     background-image: url('');
