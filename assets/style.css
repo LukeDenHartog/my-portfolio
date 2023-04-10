@@ -52,6 +52,16 @@ h3 {
     background-size: cover;
     height: 150px;
     width: 550px;
+    margin: 15px;
+    border: 8px solid rgb(85, 226, 236);
+}
+.small-border-background {
+    background-color: rgb(85, 226, 236);
+    margin: 65px 435px 10px 0px;
+}
+.small-projects-flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 #banner-picture-subtitle {
     border: 10px;
