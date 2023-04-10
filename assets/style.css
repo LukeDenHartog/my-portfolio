@@ -52,6 +52,30 @@ h3 {
     margin: 15px;
     border: 8px solid rgb(85, 226, 236);
 }
+.banner-background-03 {
+    background-image: url('02-portfolio-2.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 450px;
+    margin: 15px;
+    border: 8px solid rgb(85, 226, 236);
+}
+.banner-background-04 {
+    background-color: darkcyan;
+    background-size: cover;
+    height: 150px;
+    width: 450px;
+    margin: 15px;
+    border: 8px solid rgb(85, 226, 236);
+}
+.banner-background-05 {
+    background-image: url('02-portfolio-2.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 450px;
+    margin: 15px;
+    border: 8px solid rgb(85, 226, 236);
+}
 .big-project-background {
     background-image: url('02-portfolio-4.jpg');
     background-size: cover;
@@ -60,15 +84,42 @@ h3 {
     margin: 15px;
     border: 8px solid rgb(85, 226, 236);
 }
+.small-border-background-surf {
+    background-color: rgb(85, 226, 236);
+    margin: 500px 800px 0px 0px;
+}
 .small-border-background {
     background-color: rgb(85, 226, 236);
-    margin: 65px 435px 10px 0px;
+    margin: 75px 325px 0px 0px;
+}
+.small-border-background02 {
+    background-color: rgb(85, 226, 236);
+    margin: 75px 300px 0px 0px;
+}
+.small-border-background03 {
+    background-color: rgb(85, 226, 236);
+    margin: 75px 275px 0px 0px;
+}
+.small-border-background04 {
+    background-color: rgb(85, 226, 236);
+    margin: 75px 325px 0px 0px;
 }
 .small-projects-flex {
     display: flex;
     flex-wrap: wrap;
 }
-
+.small-projects-flex02 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-projects-flex03 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-projects-flex04 {
+    display: flex;
+    flex-wrap: wrap;
+}
 #banner-picture-subtitle {
     border: 10px;
     background-color:rgb(85, 226, 236);
