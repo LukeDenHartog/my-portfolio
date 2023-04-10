@@ -1,4 +1,5 @@
 .navbar {
+    margin-top: 32px;
     border: 4px ;
     background-color: rgb(68, 76, 102)grey;
     padding-right: 75px;
@@ -13,8 +14,9 @@
 }
 .small-teal-box {
     display: inline;
-    
+    margin: 20px 0px 20px 0px;
     background-color:rgb(85, 226, 236);
+    padding-right: 25px;
     padding-left: 75px;
 }
 .h1-box {
