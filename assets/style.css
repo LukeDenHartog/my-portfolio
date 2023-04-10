@@ -51,7 +51,7 @@ h3 {
     background-image: url('02-portfolio-1.jpg');
     background-size: cover;
     height: 150px;
-    width: 550px;
+    width: 450px;
     margin: 15px;
     border: 8px solid rgb(85, 226, 236);
 }
@@ -59,7 +59,7 @@ h3 {
     background-image: url('02-portfolio-4.jpg');
     background-size: cover;
     height: 600px;
-    width: 900px;
+    width: 950px;
     margin: 15px;
     border: 8px solid rgb(85, 226, 236);
 }
@@ -71,6 +71,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
+
 #banner-picture-subtitle {
     border: 10px;
     background-color:rgb(85, 226, 236);
@@ -78,8 +79,8 @@ h3 {
 }
 
 .body-padding {
-    
-    padding-right: 10%;
+    padding-left: 60px;
+    padding-right: 100px;
 }
 .first-project-outerbox {
     display: block;
