@@ -7,8 +7,9 @@
     color: teal;
     text-decoration: underline;
     display: inline-flex;
-    
-
+}
+.yellow {
+    align-self: center;
 }
 .small-teal-box {
     display: inline;
@@ -37,7 +38,7 @@ h3 {
 
 .body-padding {
     margin-top: 50px;
-    padding-left: 30%;
+    padding-left: 7.5%;
     padding-right: 10%;
 }
 .first-project-outerbox {
@@ -165,8 +166,13 @@ display: inline-flex;
 .footer-list-attributes {
     color: rgb(49, 55, 71);
     text-decoration: underline;
+    margin: 0 20px 0 20px;
     
 }
 .footer-wrapper-02 {
     display: inline-block;
+}
+
+.footer-flex {
+ display: fl;
 }
