@@ -22,9 +22,8 @@
     width: 100%;
        
 }
-.large-heading-txt {
-   
-    margin-right: 10px;
+.large-heading-txt { 
+    margin-right: 30px;
     font-size: 300%;
 }
 #headerh1 {
@@ -34,7 +33,10 @@ h3 {
     padding: 0px 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.aboutme-margin-top {
+    margin-top: 50px;
+    padding-left: 35px;
+}
 .banner-background {
     background-image: url('02-hero-bg.jpg');
     filter: opacity(1);
@@ -69,7 +71,7 @@ h3 {
     border: 8px solid rgb(85, 226, 236);
 }
 .banner-background-05 {
-    background-image: url('02-portfolio-2.jpg');
+    background-image: url('02-run-buddy.jpg');
     background-size: cover;
     height: 150px;
     width: 450px;
@@ -130,7 +132,7 @@ h3 {
 }
 
 .body-padding {
-    padding-left: 175px;
+    padding-left: 215px;
     padding-right: 125px;
 }
 .first-project-outerbox {
@@ -190,7 +192,7 @@ h3 {
 }
 .flex-container-02 {
     display: inline-flex;
-    justify-content: flex-end;  
+    justify-content: flex-end; 
 }
 .flex-container-03 {
     display: inline-flex;
