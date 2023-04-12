@@ -367,7 +367,10 @@ display: inline-flex;
         }
         .paragraph-margin {
             margin-left: 0px;
-        } 
+        }
+        .left-padding-contact-me {
+            padding-left: 30px;
+        }
         .large-heading-txt {
             padding-left: 80px;
         }
