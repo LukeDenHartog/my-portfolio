@@ -332,7 +332,19 @@ display: inline-flex;
             display: inline-block;
         }
         .big-project-background {
-            width: 430px;
+            width: 300px;
+        }
+        .banner-background-02 {
+            width: 300px;
+        }
+        .banner-background-03 {
+            width: 300px;
+        }
+        .banner-background-04 {
+            width: 300px;
+        }
+        .banner-background-05 {
+            width: 300px;
         }
         .mediaquery-column{
             padding-top: 50px;
