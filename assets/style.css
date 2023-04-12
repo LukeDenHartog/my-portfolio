@@ -300,9 +300,30 @@ display: inline-flex;
         }
       }
 
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .body-padding {
          padding-left: ;
          padding-right: 0px;
         }
       }
+ @media screen and (max-width: 500px) {
+        .flex-container-02 {
+             display: inline-block;
+            }
+        .straight-line-divider{
+            display: none;
+        }
+        .aboutme-margin-top{
+            padding-left: 0px
+        }
+        .flex-container-03 {
+            padding-left: 0px;
+        }
+        .straight-line-divider02 {
+            display: none;
+        }
+        .flex-container-03 {
+            display: inline-block;
+        }
+          }
+
