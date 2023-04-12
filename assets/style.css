@@ -364,21 +364,21 @@ display: inline-flex;
         }
         .paragraph-margin {
             margin-left: 0px;
-        }
-          }
+        } 
         .large-heading-txt {
-            padding-left: 100px;
+            padding-left: 80px;
         }
+          
          /*  This showed me a good reminder that the order of operation goes top to bottom. If I place
           the .me-padding ccs decloration above the .large-heading-txt class declaration then it will not apply
           the 120px padding-left attribute because the large-heading-txt overwrites it if it was placed underneath 
           .me-padding class dec.
          */
         .me-padding {
-            padding-left: 120px;
+            padding-left: 125px;
         }
         
-
+    }
 
 
 
