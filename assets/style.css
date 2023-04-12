@@ -325,5 +325,24 @@ display: inline-flex;
         .flex-container-03 {
             display: inline-block;
         }
+        .big-project-background {
+            width: 430px;
+        }
+        .mediaquery-column{
+            padding-top: 50px;
+            padding-left: 0px;
+        }
+        .flex-wrapping02 {
+            flex-direction: column-reverse;
+            align-items: center;
+            white-space: pre-line;
+        }
           }
-
+         
+         /*    */
+          @media screen and (min-width: 501px) {
+            .mediaquery-column {
+                padding-left: 50px;
+            
+            }
+          }
