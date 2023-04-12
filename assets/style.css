@@ -133,7 +133,7 @@ h3 {
 
 .body-padding {
     padding-left: 150px;
-    padding-right: 125px;
+    padding-right: 250px;
 }
 .first-project-outerbox {
     display: block;
@@ -294,3 +294,15 @@ display: inline-flex;
 .paragraph-text-size {
     font-size: 20px;
 }
+@media screen and (max-width: 1350px) {
+    .body-padding {
+       padding-left: 10px;
+        }
+      }
+
+  @media screen and (max-width: 1024px) {
+    .body-padding {
+         padding-left: ;
+         padding-right: 0px;
+        }
+      }
