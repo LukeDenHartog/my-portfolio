@@ -331,6 +331,9 @@ display: inline-flex;
         .flex-container-03 {
             display: inline-block;
         }
+        .flex-container-04 {
+            margin-left: 0px;
+        }
         .big-project-background {
             width: 300px;
         }
