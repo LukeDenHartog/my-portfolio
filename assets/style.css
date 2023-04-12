@@ -359,6 +359,9 @@ display: inline-flex;
             white-space: pre-line;
             padding-left: 0px;
         }
+        .navbar {
+            padding-right: 0px;
+        }
         .contact-padding {
 
         }
