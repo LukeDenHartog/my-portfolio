@@ -373,7 +373,7 @@ display: inline-flex;
             
         }
         .large-heading-txt {
-            padding-left: 85px;
+           
         }
           
          /*  This showed me a good reminder that the order of operation goes top to bottom. If I place
@@ -382,7 +382,7 @@ display: inline-flex;
           .me-padding class dec.
          */
         .me-padding {
-            padding-left: 128px;
+            
         }
         
     }
