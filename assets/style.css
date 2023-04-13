@@ -316,6 +316,8 @@ display: inline-flex;
         .flex-container-02 {
              display: inline-flex;
              flex-direction: column;
+             justify-content: center;
+            align-items: center;
             }
         .straight-line-divider{
             display: none;
@@ -383,7 +385,7 @@ display: inline-flex;
           .me-padding class dec.
          */
         .me-padding {
-            
+            padding-left: 60px;
         }
         
     }
