@@ -380,8 +380,21 @@ display: inline-flex;
            
         }
         .small-border-background-surf {
-            margin: 225px 165px 0px 0px;
+            margin: 250px 165px 0px 0px;
         }
+        .small-border-background {
+            margin: 75px 180px 0px 0px;
+        }
+        .small-border-background02 {
+            margin: 75px 155px 0px 0px;
+        }
+        .small-border-background03 {
+            margin: 75px 135px 0px 0px;
+        }
+        .small-border-background04 {
+            margin: 75px 170px 0px 0px;
+        }
+
           
          /*  This showed me a good reminder that the order of operation goes top to bottom. If I place
           the .me-padding ccs decloration above the .large-heading-txt class declaration then it will not apply
