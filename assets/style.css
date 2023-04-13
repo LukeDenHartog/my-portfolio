@@ -314,7 +314,8 @@ display: inline-flex;
       }
  @media screen and (max-width: 500px) {
         .flex-container-02 {
-             display: inline-block;
+             display: inline-flex;
+             flex-direction: column;
             }
         .straight-line-divider{
             display: none;
