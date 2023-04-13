@@ -368,8 +368,9 @@ display: inline-flex;
         .paragraph-margin {
             margin-left: 0px;
         }
-        .left-padding-contact-me {
-            padding-left: 30px;
+        .display-inline {
+            display: inline;
+            
         }
         .large-heading-txt {
             padding-left: 80px;
