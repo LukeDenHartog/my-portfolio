@@ -339,6 +339,7 @@ display: inline-flex;
         }
         .big-project-background {
             width: 300px;
+            height: 325px;
         }
         .banner-background-02 {
             width: 300px;
@@ -377,6 +378,9 @@ display: inline-flex;
         }
         .large-heading-txt {
            
+        }
+        .small-border-background-surf {
+            margin: 225px 165px 0px 0px;
         }
           
          /*  This showed me a good reminder that the order of operation goes top to bottom. If I place
