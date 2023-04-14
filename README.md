@@ -4,7 +4,7 @@
 
 ![Site screenshot](./assets/ddd.jpg)
 
-<a href="https://afrozez.github.io/my-portfolio/"><br>Link to my site: afrozez.github.io/my-portfolio/</a>
+<a href="https://afrozez.github.io/my-portfolio/"><br>Link to deployed application: https://afrozez.github.io/my-portfolio/</a>
 
 ## This portfolio provided some experience creating a web page from scratch. It displays a number of different HTML and CSS elements styled in a nice presentable manner.
 
