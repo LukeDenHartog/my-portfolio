@@ -1,5 +1,3 @@
-# my-portfolio
-
 # My Portfolio
 
 ![Site screenshot](./assets/ddd.jpg)
