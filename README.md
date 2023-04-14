@@ -2,11 +2,10 @@
 
 ![Site screenshot](./assets/ddd.jpg)
 
-<a href="https://afrozez.github.io/my-portfolio/"><br>Link to deployed application: https://afrozez.github.io/my-portfolio/</a>
 
 ## This portfolio provided some experience creating a web page from scratch. It displays a number of different HTML and CSS elements styled in a nice presentable manner.
 
-
+<a href="https://afrozez.github.io/my-portfolio/"><br>Link to deployed application: https://afrozez.github.io/my-portfolio/</a>
    
     This (https://afrozez.github.io/my-portfolio/) project displays information about myself, presents links that will direct you to my work/projects made in the future. There is numerous ways to get into contact with the creator of the portfolio on the bottom of the page.
 
