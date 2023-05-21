@@ -9,10 +9,13 @@
     text-decoration: underline;
     display: inline-flex;
 }
-.small-teal-box {
+h3 {
+    color:lightblue;
+}
+.small-lightblue-box {
     display: inline;
     margin: 20px 0px 20px 0px;
-    background-color:rgb(85, 226, 236);
+    background-color:lightblue;
     padding-right: 25px;
     padding-left: 75px;
 }
@@ -127,6 +130,7 @@ h3 {
 }
 #banner-picture-subtitle {
     border: 10px;
+    border-radius: 25px;
     background-color:rgb(85, 226, 236);
     margin: 40px 75px;
 }
@@ -192,7 +196,12 @@ h3 {
 }
 .flex-container-02 {
     display: inline-flex;
-    justify-content: flex-end; 
+    justify-content: center; 
+    
+}
+.href-styles {
+    text-decoration: none;
+    color: black;
 }
 .flex-container-03 {
     display: inline-flex;
