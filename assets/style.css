@@ -404,7 +404,22 @@ display: inline-flex;
             margin: 75px 170px 0px 0px;
         }
 
-          
+        .small-lightblue-box {
+            display: flex;
+            margin: 20px 0px 20px 0px;
+            background-color: lightblue;
+            padding-right: 25px;
+            padding-left: 30px;
+            justify-content: start;
+            align-items: center;
+        }
+        #banner-picture-subtitle {
+            /* border: 10px; */
+            /* border-radius: 25px; */
+            background-color: rgb(85, 226, 236);
+            /* margin: 40px 75px; */
+            margin: 0 10px 0 0;
+        }
          /*  This showed me a good reminder that the order of operation goes top to bottom. If I place
           the .me-padding ccs decloration above the .large-heading-txt class declaration then it will not apply
           the 120px padding-left attribute because the large-heading-txt overwrites it if it was placed underneath 
@@ -415,9 +430,6 @@ display: inline-flex;
         }
         
     }
-
-
-
 
 
           @media screen and (min-width: 501px) {
