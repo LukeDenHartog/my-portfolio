@@ -417,7 +417,7 @@ display: inline-flex;
             /* border: 10px; */
             /* border-radius: 25px; */
             background-color: rgb(85, 226, 236);
-            /* margin: 40px 75px; */
+                
             margin: 0 10px 0 0;
         }
          /*  This showed me a good reminder that the order of operation goes top to bottom. If I place
