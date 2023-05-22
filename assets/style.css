@@ -227,9 +227,6 @@ h3 {
     height: 150px;
     width: 250px;
 }
-.wall-node-outerbox {
-
-}
 #calculator-rjc-img {
     background-image: url('02-portfolio-2.jpg');
     background-size: cover;
@@ -301,6 +298,7 @@ display: inline-flex;
 }
 
 .paragraph-text-size {
+    line-height: 30px;
     font-size: 20px;
 }
 @media screen and (max-width: 1350px) {
