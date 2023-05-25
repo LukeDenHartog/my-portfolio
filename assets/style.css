@@ -438,9 +438,14 @@ display: inline-flex;
           .me-padding class dec.
          */
         .me-padding {
-            padding-left: 60px;
+            padding-left: 100px;
         }
-        
+        #read-more-div {
+            padding-left: 100px;
+        }
+        #read-less-div {
+            padding-left: 100px;
+        }
     }
 
 
