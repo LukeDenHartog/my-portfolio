@@ -4,6 +4,15 @@
     background-color: rgb(68, 76, 102)grey;
     padding-right: 75px;
 }
+#read-more-div {
+    padding-left: 400px;
+}
+#read-less-div {
+    padding-left: 400px;
+}
+.hide-display {
+    display: none;
+}
 .header-list-items {
     color: teal;
     text-decoration: underline;
@@ -271,6 +280,21 @@ display: inline-flex;
 
 
 /*  Footer CSS */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
 .footer-wrapper {
     display: flex;
     justify-content: space-around;
