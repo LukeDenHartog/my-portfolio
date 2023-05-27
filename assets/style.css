@@ -18,6 +18,14 @@
     text-decoration: underline;
     display: inline-flex;
 }
+#img-ele {
+    border-radius: 50%;
+    width: 200px; /* Adjust the width and height to your desired size */
+    height: 200px;
+}
+#image-div {
+    padding-left: 75px;
+}
 h3 {
     color:lightblue;
 }
@@ -142,6 +150,7 @@ h3 {
     border-radius: 25px;
     background-color:rgb(85, 226, 236);
     margin: 40px 75px;
+    padding: 0px 25px;
 }
 
 .body-padding {
@@ -179,6 +188,10 @@ h3 {
         height: 200px; /* Set the height of the div to 200 pixels */
         border-right: 5px solid rgb(49, 55, 71);; /* Add a solid black border to the top of the div */
       }
+.straight-line-divider-500 {
+        height: 500px; 
+        border-right: 5px solid rgb(49, 55, 71);; 
+    }
 .straight-line-divider02 {
     height: 1000px;
     border-right: 5px solid rgb(49, 55, 71); 
@@ -205,8 +218,7 @@ h3 {
 }
 .flex-container-02 {
     display: inline-flex;
-    justify-content: center; 
-    
+    justify-content: space-between;
 }
 .href-styles {
     text-decoration: none;
