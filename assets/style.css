@@ -381,6 +381,12 @@ display: inline-flex;
             width: 300px;
             height: 325px;
         }
+        #banner-picture-subtitle {
+            display: none;
+        }
+        #image-div {
+            padding-left: 0px;
+        }
         .banner-background-02 {
             width: 300px;
         }
