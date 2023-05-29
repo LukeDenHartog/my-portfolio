@@ -22,7 +22,11 @@ function showLess() {
     aboutMeLine.classList.remove('straight-line-divider-500')
     aboutMeLine.classList.add('straight-line-divider')
 }
-
+stockVolumeDisplay = document.getElementById('stock-volume')
+stockDisplay = document.getElementById('stock-display');
+let stockName;
+let stockPrice;
+let stockVolume;
 
 function fetchData() {
     fetch('https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=NEO&apikey=BSQ5XPA9JKRCWZZ4')
@@ -44,3 +48,11 @@ function fetchData() {
 
 fetchData() 
 
+//The setTimout function is to give the API time to make a call for data so the console logs won't be undefined when you load the page.
+setTimeout(function() {
+    stockDisplay.textContent = `${stockName}: $${stockPrice}  `;
+    stockVolumeDisplay.textContent = `Volume: ${stockVolume}`
+  console.log(stockName);
+  console.log(stockPrice);
+  console.log(stockVolume);
+}, 2000);
