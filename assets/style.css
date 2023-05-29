@@ -338,6 +338,11 @@ display: inline-flex;
 #stock-value {
     color: lightblue;
 }
+
+
+
+
+
 @media screen and (max-width: 1350px) {
     .body-padding {
        padding-left: 10px;
@@ -473,6 +478,9 @@ display: inline-flex;
 
           @media screen and (max-width: 1133px) {
             #banner-picture-subtitle {
+                display: none;
+            }
+            #stock-display-div01 {
                 display: none;
             }
           }
