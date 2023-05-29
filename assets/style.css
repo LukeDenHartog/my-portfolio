@@ -4,12 +4,7 @@
     background-color: rgb(68, 76, 102)grey;
     padding-right: 75px;
 }
-#read-more-div {
-    padding-left: 400px;
-}
-#read-less-div {
-    padding-left: 400px;
-}
+
 .hide-display {
     display: none;
 }
@@ -205,6 +200,7 @@ h3 {
 .flex-wrapping {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .flex-wrapping02 {
     display: flex;
@@ -456,12 +452,6 @@ display: inline-flex;
           .me-padding class dec.
          */
         .me-padding {
-            padding-left: 100px;
-        }
-        #read-more-div {
-            padding-left: 100px;
-        }
-        #read-less-div {
             padding-left: 100px;
         }
     }
