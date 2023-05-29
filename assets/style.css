@@ -328,10 +328,15 @@ display: inline-flex;
 .footer-flex {
  display: fl;
 }
-
 .paragraph-text-size {
     line-height: 30px;
     font-size: 20px;
+}
+#stock-display {
+    color: lightblue;
+}
+#stock-value {
+    color: lightblue;
 }
 @media screen and (max-width: 1350px) {
     .body-padding {

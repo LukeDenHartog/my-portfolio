@@ -4,7 +4,7 @@ readMoreButton.addEventListener("click", showMore);
 readLessButton = document.getElementById('read-less')
 readLessButton.addEventListener("click", showLess)
 aboutMeLine = document.querySelector('#first-line')
-
+stockDisplay = document.getElementById('stock-display');
 
 
 function showMore() {
@@ -22,3 +22,25 @@ function showLess() {
     aboutMeLine.classList.remove('straight-line-divider-500')
     aboutMeLine.classList.add('straight-line-divider')
 }
+
+
+function fetchData() {
+    fetch('https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=NEO&apikey=BSQ5XPA9JKRCWZZ4')
+    .then(function(response){
+        return response.json()
+        .then(function(data){
+         console.log(data)
+         stockName = data["Global Quote"]["01. symbol"]
+         stockPrice = data["Global Quote"]["05. price"]
+         stockVolume = data["Global Quote"]["06. volume"]
+        
+        })
+       .catch(function(error){
+        console.error('Error', error)
+       }) 
+    })
+        
+}
+
+fetchData() 
+
