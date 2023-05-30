@@ -107,7 +107,7 @@ h3 {
 }
 .small-border-background {
     background-color: rgb(85, 226, 236);
-    margin: 75px 325px 0px 0px;
+    margin: 60px 325px 0px 0px;
 }
 .small-border-background02 {
     background-color: rgb(85, 226, 236);
@@ -184,7 +184,7 @@ h3 {
         border-right: 5px solid rgb(49, 55, 71);; /* Add a solid black border to the top of the div */
       }
 .straight-line-divider-500 {
-        height: 500px; 
+        height: 425px; 
         border-right: 5px solid rgb(49, 55, 71);; 
     }
 .straight-line-divider02 {
@@ -338,7 +338,12 @@ display: inline-flex;
 #stock-value {
     color: lightblue;
 }
-
+.display-contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -421,14 +426,17 @@ display: inline-flex;
         .paragraph-margin {
             margin-left: 0px;
         }
-        .display-inline {
-            display: inline;     
+        .display-contact-me {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;      
         }
         .small-border-background-surf {
-            margin: 250px 165px 0px 0px;
+            margin: 200px 165px 0px 0px;
         }
         .small-border-background {
-            margin: 75px 180px 0px 0px;
+            margin: 60px 180px 0px 0px;
         }
         .small-border-background02 {
             margin: 75px 155px 0px 0px;
@@ -456,23 +464,14 @@ display: inline-flex;
 
             margin: 0 10px 0 0;
         }
-         /*  This showed me a good reminder that the order of operation goes top to bottom. If I place
-          the .me-padding ccs decloration above the .large-heading-txt class declaration then it will not apply
-          the 120px padding-left attribute because the large-heading-txt overwrites it if it was placed underneath 
-          .me-padding class dec.
-         */
-        .me-padding {
-            padding-left: 100px;
+        .contact-me-media {
+            margin-right: 0px;
         }
     }
-
 
           @media screen and (min-width: 501px) {
             .mediaquery-column {
                 padding-left: 50px;
-            }
-            #first-line {
-                
             }
           }
 

@@ -1,3 +1,6 @@
+let stockName;
+let stockPrice;
+let stockVolume;
 secondParagraph = document.getElementById('second-paragraph');
 readMoreButton = document.getElementById('read-more');
 readMoreButton.addEventListener("click", showMore);
@@ -5,7 +8,8 @@ readLessButton = document.getElementById('read-less')
 readLessButton.addEventListener("click", showLess)
 aboutMeLine = document.querySelector('#first-line')
 stockDisplay = document.getElementById('stock-display');
-
+stockVolumeDisplay = document.getElementById('stock-volume')
+stockDisplay = document.getElementById('stock-display');
 
 function showMore() {
     secondParagraph.classList.remove("hide-display");
@@ -22,6 +26,7 @@ function showLess() {
     aboutMeLine.classList.remove('straight-line-divider-500')
     aboutMeLine.classList.add('straight-line-divider')
 }
+
 
 
 function fetchData() {
@@ -46,8 +51,8 @@ fetchData()
 
 //The setTimout function is to give the API time to make a call for data so the console logs won't be undefined when you load the page.
 setTimeout(function() {
-    stockDisplay.textContent = `${stockName}: $${stockPrice}  `;
-    stockVolumeDisplay.textContent = `Volume: ${stockVolume}`
+    stockDisplay.textContent = `${stockName}: $${parseFloat(stockPrice).toFixed(2)}`;
+    stockVolumeDisplay.textContent = `Volume: ${stockVolume} shares`;
   console.log(stockName);
   console.log(stockPrice);
   console.log(stockVolume);
