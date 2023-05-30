@@ -127,6 +127,7 @@ h3 {
     flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
     /*demo*/
     margin-bottom: 10px;
+    justify-content: center;
 }
 .small-projects-flex02 {
     display: flex;
@@ -229,6 +230,7 @@ h3 {
     display: flex;
     flex-flow: column;
     margin-left: 30px;
+    align-items: center;
 }
 .box-img-first-project {
     background-image: url('');
