@@ -420,7 +420,6 @@ display: inline-flex;
             flex-direction: column-reverse;
             align-items: center;
             white-space: pre-line;
-            padding-left: 0px;
         }
         .navbar {
             padding-right: 0px;
@@ -468,6 +467,15 @@ display: inline-flex;
         }
         .contact-me-media {
             margin-right: 0px;
+        }
+        .footer-list-attributes {
+            margin: 0; 
+        }
+        #contactme {
+            padding-left: 20px;
+        }
+        .display-contact-me {
+            padding-left: 20px;
         }
     }
 
