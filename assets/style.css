@@ -97,7 +97,7 @@ h3 {
     background-image: url('02-portfolio-4.jpg');
     background-size: cover;
     height: 600px;
-    width: fit-content;
+    width: 950px;
     margin: 15px;
     border: 8px solid rgb(85, 226, 236);
 }
