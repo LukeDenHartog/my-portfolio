@@ -97,7 +97,7 @@ h3 {
     background-image: url('02-portfolio-4.jpg');
     background-size: cover;
     height: 600px;
-    width: 950px;
+    width: fit-content;
     margin: 15px;
     border: 8px solid rgb(85, 226, 236);
 }
@@ -422,7 +422,10 @@ display: inline-flex;
             margin-left: 0px;
         }
         .display-inline {
-            display: inline;     
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;   
         }
         .small-border-background-surf {
             margin: 250px 165px 0px 0px;
@@ -461,18 +464,12 @@ display: inline-flex;
           the 120px padding-left attribute because the large-heading-txt overwrites it if it was placed underneath 
           .me-padding class dec.
          */
-        .me-padding {
-            padding-left: 100px;
-        }
     }
 
 
           @media screen and (min-width: 501px) {
             .mediaquery-column {
                 padding-left: 50px;
-            }
-            #first-line {
-                
             }
           }
 
