@@ -4,13 +4,11 @@
     background-color: rgb(68, 76, 102)grey;
     padding-right: 75px;
 }
-
 .hide-display {
     display: none;
 }
 .header-list-items {
     color: teal;
-    text-decoration: underline;
     display: inline-flex;
 }
 #img-ele {
@@ -34,8 +32,7 @@ h3 {
 .h1-box {
     border: 4px;
     background-color: rgb(49, 55, 71);
-    width: 100%;
-       
+    width: 100%; 
 }
 .large-heading-txt { 
     margin-right: 30px;
@@ -261,7 +258,6 @@ h3 {
     height: 150px;
     width: 250px;
 }
-
 #run-buddy-img {
     background-image: url('02-run-buddy.jpg');
     background-size: cover;
@@ -269,26 +265,13 @@ h3 {
     height: 150px;
     width: 250px;
 }
-
-
-
-
-/*     In the example above, the display: inline-block; property
- makes the container behave like an inline element, but with the ability 
- to set a width and height. This causes the border to wrap only around the 
- content within the container, rather than stretching to the full width of
- its parent element.    */
 .inline-flex {
 display: inline-flex;
 }
-
 .inline-flex-02 {
     display: inline-flex;
     justify-content: flex-end;
 }
-  
-
-
 /*  Footer CSS */
 .arrow {
     border: solid black;
@@ -300,7 +283,6 @@ display: inline-flex;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
-
 .up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
@@ -309,8 +291,6 @@ display: inline-flex;
     display: flex;
     justify-content: space-around;
     align-self: center;
-
-
 }
 .straight-line-divider-02 {
     height: 200px; /* Set the height of the div to 200 pixels */
@@ -319,14 +299,12 @@ display: inline-flex;
 }
 .footer-list-attributes {
     color: rgb(49, 55, 71);
-    text-decoration: underline;
     margin: 0 20px 0 20px;
     
 }
 .footer-wrapper-02 {
     display: inline-block;
 }
-
 .footer-flex {
  display: fl;
 }
@@ -346,16 +324,18 @@ display: inline-flex;
     justify-content: center;
     align-items: center;
 }
-
-
-
-
+.text-links {
+    text-decoration: none;
+}
+.footer-text-links {
+    text-decoration: none;
+    color: black;
+}
 @media screen and (max-width: 1350px) {
     .body-padding {
        padding-left: 10px;
         }
       }
-
 @media screen and (max-width: 1024px) {
     .body-padding {
          padding-right: 0px;
@@ -462,7 +442,6 @@ display: inline-flex;
             /* border: 10px; */
             /* border-radius: 25px; */
             background-color: rgb(85, 226, 236);
-
             margin: 0 10px 0 0;
         }
         .contact-me-media {
@@ -478,13 +457,11 @@ display: inline-flex;
             padding-left: 20px;
         }
     }
-
-          @media screen and (min-width: 501px) {
+ @media screen and (min-width: 501px) {
             .mediaquery-column {
                 padding-left: 50px;
             }
           }
-
           @media screen and (max-width: 1133px) {
             #banner-picture-subtitle {
                 display: none;
