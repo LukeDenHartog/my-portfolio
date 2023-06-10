@@ -342,6 +342,9 @@ display: inline-flex;
     text-decoration: none;
     color: black;
 }
+#neo-text {
+    text-decoration: underline;
+}
 @media screen and (max-width: 1350px) {
     .body-padding {
        padding-left: 10px;
