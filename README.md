@@ -5,9 +5,9 @@
 
 ## This portfolio provided some experience creating a web page from scratch. It displays a number of different HTML and CSS elements styled in a nice presentable manner.
 
-<a href="https://afrozez.github.io/my-portfolio/"><br>Link to deployed application: https://afrozez.github.io/my-portfolio/</a>
+<a href="https://lukedenhartog.github.io/my-portfolio/"><br>Link to deployed application: https://lukedenhartog.github.io/my-portfolio/</a>
    
-    This (https://afrozez.github.io/my-portfolio/) project displays information about myself, presents links that will direct you to my work/projects made in the future. There is numerous ways to get into contact with the creator of the portfolio on the bottom of the page.
+    This (https://lukedenhartog.github.io/my-portfolio/) project displays information about myself, presents links that will direct you to my work/projects made in the future. There is numerous ways to get into contact with the creator of the portfolio on the bottom of the page.
 
 
 
@@ -17,7 +17,7 @@
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running: N/A
 
 ## Usage
-    This (https://afrozez.github.io/my-portoflio/) module-02 can later be looked at and edited to showcase my proficiency creating a web page. This portfolio will also be added to a github to display my experience to futue visitors to my github page.
+    This (https://lukedenhartog.github.io/my-portoflio/) module-02 can later be looked at and edited to showcase my proficiency creating a web page. This portfolio will also be added to a github to display my experience to futue visitors to my github page.
 
     If any users have any questions about how to start the project they may send questions to LukeADenHartog@gmail.com.
 
